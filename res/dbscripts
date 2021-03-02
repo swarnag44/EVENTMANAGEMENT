@@ -1,0 +1,7 @@
+CREATE TABLE events
+(id CHAR(4) PRIMARY KEY,
+	title VARCHAR(20) NOT NULL,
+	datescheduled Date NOT NULL,
+	location varchar(10),
+	cost Float NOT NULL
+	);
